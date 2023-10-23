@@ -7,9 +7,7 @@ export function Sobre() {
 
         <ScrollView style={{ flex: 1, backgroundColor:'#E0FFFF'}}>
 
-        <Text style={styles.titulo} >
-                Um pouco sobre a ideia
-            </Text>
+     
             <Image
         style={styles.logochamp}
         source={require('./img/logochamp.png')}
@@ -83,7 +81,7 @@ const styles = StyleSheet.create({
     }, 
 
     justificativa:{
-     
+        textAlign:  'justify',
         marginTop: 40,
         width: 250,
         marginLeft: 73,
@@ -91,7 +89,7 @@ const styles = StyleSheet.create({
     }, 
 
     objetivo:{
-     
+        textAlign:  'justify',
         marginTop: 40,
         width: 250,
         marginLeft: 73,
@@ -100,7 +98,7 @@ const styles = StyleSheet.create({
     },
 
     desenvolvimento:{
-  
+        textAlign:  'justify',
         marginTop: 40,
         width: 250,
         marginLeft: 73,
@@ -108,7 +106,7 @@ const styles = StyleSheet.create({
     },
 
     titulo2:{
-
+        textAlign: 'center', 
         fontSize: 25, 
         fontWeight: '600', 
         marginTop: 40,
@@ -126,6 +124,7 @@ const styles = StyleSheet.create({
     },
 
     logosenaipng:{
+        marginTop: 25,
         marginLeft: 50,
         resizeMode : 'contain',
         width: 300,

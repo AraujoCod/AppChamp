@@ -16,7 +16,7 @@ export function AppRoutes(){
       <Navigator>
          <Screen name="Home" component={Home} />
          <Screen name="Games" component={Games} />
-         <Screen name="Sobre" component={Sobre} />
+         <Screen name="Sobre a ideia" component={Sobre} />
       </Navigator>
     </NavigationContainer>
    )
