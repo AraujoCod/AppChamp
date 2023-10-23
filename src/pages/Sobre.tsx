@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
         resizeMode : 'contain',
         width: 100,
         height: 100,
-        marginTop: 23,
+        marginTop: 30,
          
     },
 
