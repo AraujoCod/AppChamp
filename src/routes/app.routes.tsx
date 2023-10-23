@@ -8,7 +8,7 @@ const {Navigator, Screen} = createBottomTabNavigator();
 
 import { Home } from '../pages/Home'
 import { Games } from '../pages/Games'
-import { Config } from '../pages/Config'
+import { Sobre } from '../pages/Sobre'
 
 export function AppRoutes(){
    return(
@@ -16,7 +16,7 @@ export function AppRoutes(){
       <Navigator>
          <Screen name="Home" component={Home} />
          <Screen name="Games" component={Games} />
-         <Screen name="Config" component={Config} />
+         <Screen name="Sobre" component={Sobre} />
       </Navigator>
     </NavigationContainer>
    )
