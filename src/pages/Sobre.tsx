@@ -5,11 +5,15 @@ import { View, Text, StyleSheet, ScrollView, Image, } from 'react-native'
 export function Sobre() {
     return(
 
-        <ScrollView style={{ flex: 1, backgroundColor:'#FDF5E6'}}>
+        <ScrollView style={{ flex: 1, backgroundColor:'#E0FFFF'}}>
 
         <Text style={styles.titulo} >
                 Um pouco sobre a ideia
             </Text>
+            <Image
+        style={styles.logochamp}
+        source={require('./img/logochamp.png')}
+      />
 
     <Text style={styles.justificativa}>
             A dificuldade em oferecer brinquedos inclusivos para crianças com deficiência auditiva é desafiador. 
@@ -34,7 +38,7 @@ export function Sobre() {
     </Text>
 
             <Text style={styles.titulo2}>
-                ----Formação da equipe----
+                ----Nossa  equipe----
             </Text>
 
 <Text style={styles.formacaoep}>
@@ -79,33 +83,32 @@ const styles = StyleSheet.create({
     }, 
 
     justificativa:{
+     
         marginTop: 40,
         width: 250,
-        marginLeft: 60,
+        marginLeft: 73,
         fontSize: 14
     }, 
 
     objetivo:{
-
+     
         marginTop: 40,
         width: 250,
-        marginLeft: 60,
+        marginLeft: 73,
         fontSize: 14
 
     },
 
     desenvolvimento:{
-
+  
         marginTop: 40,
         width: 250,
-        marginLeft: 60,
-        fontSize: 14
-
+        marginLeft: 73,
+        fontSize: 14,
     },
 
     titulo2:{
 
-        textAlign: 'center', 
         fontSize: 25, 
         fontWeight: '600', 
         marginTop: 40,
@@ -113,7 +116,7 @@ const styles = StyleSheet.create({
     }, 
 
     formacaoep:{
-
+ 
         marginTop: 40,
         width: 300,
         marginLeft: 60,
@@ -126,8 +129,19 @@ const styles = StyleSheet.create({
         marginLeft: 50,
         resizeMode : 'contain',
         width: 300,
+        height: 100,
+        
+        
+    },
+    logochamp:{
+        marginLeft: 152,
+        resizeMode : 'contain',
+        width: 100,
+        height: 100,
+        marginTop: 23,
+         
+    },
 
-    }
 
 
 })
