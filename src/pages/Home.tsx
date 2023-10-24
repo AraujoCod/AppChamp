@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         justifyContent: 'center',
         textAlign: 'center',
-        marginLeft: 74,
+        marginLeft: 75,
         borderColor: '#5271ff',
         color: 'blue',
     },
