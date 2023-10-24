@@ -73,7 +73,7 @@ export function Sobre() {
 const styles = StyleSheet.create({
     
     titulo: {
-
+        fontFamily: 'Trebuchet MS ',
         textAlign: 'center', 
         fontSize: 25, 
         fontWeight: '600', 
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     }, 
 
     justificativa:{
+        fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
     }, 
 
     objetivo:{
-
+        fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
     },
 
     desenvolvimento:{
-
+        fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -110,7 +111,7 @@ const styles = StyleSheet.create({
     },
 
     titulo2:{
-
+        fontFamily: 'Georgia, serif ',
         textAlign: 'center', 
         fontSize: 25, 
         fontWeight: '600', 
@@ -119,7 +120,7 @@ const styles = StyleSheet.create({
     }, 
 
     formacaoep:{
- 
+        fontFamily: 'Georgia, serif',
         marginTop: 40,
         width: 300,
         marginLeft: 60,
