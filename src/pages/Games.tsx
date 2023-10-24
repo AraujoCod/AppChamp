@@ -4,7 +4,7 @@ import { View } from 'react-native'
 
 export function Games() {
     return(
-        <View style={{ flex: 1, backgroundColor:'#E0FFFF'}}>
+        <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
 
         </View>
     )  

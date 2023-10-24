@@ -4,7 +4,7 @@ import {ImageBackground, StyleSheet, Text, View,TouchableOpacity,Image,Touchable
 
 export function Home(){
     return(
-        <View style={{ flex: 1, backgroundColor:'#E0FFFF'}}>
+        <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
             
           <ImageBackground source={require ('./img/ChampRbp.png')} resizeMode="contain" style={styles.ChampRbp}></ImageBackground>
 
@@ -12,7 +12,7 @@ export function Home(){
    
           <Text style={styles.BemVindo}>Bem Vindo!</Text>
 
-          <Text style={styles.AtvSom}>Ative ou Desative o som </Text>
+          <Text style={styles.AtvSom}>Ative / Desative o som </Text>
 
           <TouchableOpacity >  <Image style={styles.icone} source={require('./img/icone.png')} /></TouchableOpacity>
 
@@ -46,38 +46,37 @@ const styles = StyleSheet.create({
         },
 
         BemVindo: {
-            top: 60,
+            top: 70,
             fontWeight: 600,
-            fontSize: 26,
+            fontSize: 28,
             color: '#004AAD',
             textAlign: 'center',
             flex: 1,
-            fontFamily: 'Trebuchet MS ',
+            fontFamily: 'Georgia, serif ',
             
     
         },
 
         icone: {
 
-          bottom: 110,
+          bottom: 50,
           width: 50,
           height:50,
           resizeMode:"contain",
-          marginLeft: 150,
+          marginLeft: 20,
       
         },
 
         AtvSom: {
-        top: 30,   
+        top: 145,   
         fontWeight: 600,
         fontSize: 20,
         color: '#004AAD',
         textAlign: 'center',
         flex: 1,
-        fontFamily: 'Trebuchet MS ',
-        
-
-        },
+        fontFamily: 'Georgia, serif',
+        marginLeft: 35,    
+    },
 
       
 

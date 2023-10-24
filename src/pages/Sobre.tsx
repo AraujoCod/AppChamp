@@ -5,7 +5,7 @@ import { View, Text, StyleSheet, ScrollView, Image, } from 'react-native'
 export function Sobre() {
     return(
 
-<ScrollView style={{ flex: 1, backgroundColor:'#E0FFFF'}}>
+<ScrollView style={{ flex: 1, backgroundColor:'#FFFF'}}>
   <Image style={styles.logochamp} source={require('./img/logochamp.png')}/>
     <Text style={styles.justificativa}>
 
