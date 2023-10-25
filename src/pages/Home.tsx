@@ -1,24 +1,24 @@
 import React from 'react'
-import {TextInput ,ImageBackground, StyleSheet, Text, View,TouchableOpacity,Image,TouchableHighlight} from 'react-native'
+import {TextInput ,ImageBackground, StyleSheet, Text, View,TouchableOpacity,Image,} from 'react-native'
 
 
 export function Home(){
     return(
-        <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
-              
-          <ImageBackground source={require ('./img/ChampRbp.png')} resizeMode="contain" style={styles.ChampRbp}></ImageBackground>
+      <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
 
-          <ImageBackground source={require ('./img/ChampRb2.png')} resizeMode="contain" style={styles.ChampFr}> </ImageBackground>
+          <ImageBackground source={require ('./img/ChampRb.png')} resizeMode="contain" style={styles.ChampRbp}></ImageBackground>
+       
+          <ImageBackground source={require ('./img/ChampRb2.png')} resizeMode="contain" style={styles.ChampFr}></ImageBackground>
    
           <Text style={styles.BemVindo}>Bem Vindo!</Text>
 
-            <TextInput style={styles.seunome} placeholder=' Qual Seu Nome ? '/>
+          <TextInput style={styles.seunome} placeholder=' Qual Seu Nome ? '/>
 
           <Text style={styles.AtvSom}>Ative / Desative o som </Text>
 
-          <TouchableOpacity >  <Image style={styles.icone} source={require('./img/icone2.png')} /></TouchableOpacity>
+         <TouchableOpacity ><Image style={styles.icone} source={require('./img/icone2.png')} /></TouchableOpacity>
 
-        </View>
+      </View>
    )
  }
 
@@ -47,19 +47,17 @@ const styles = StyleSheet.create({
 
         BemVindo: {
             bottom: 30,
-            fontWeight: 'bold',
             fontSize: 30,
             color: '#5271FF',
             textAlign: 'center',
             flex: 1,
-            fontFamily: 'Fixedsys, serif ',
             
     
         },
 
         icone: {
 
-          bottom: 40,
+          bottom: 25,
           width: 60,
           height:60,
           resizeMode:"contain",
@@ -68,14 +66,12 @@ const styles = StyleSheet.create({
         },
 
         AtvSom: {
-        top: 70,   
-        fontWeight: 600,
+        top: 80,   
         fontSize: 20,
         color: '#5271FF',
         textAlign: 'center',
         flex: 1,
-        fontFamily: 'Georgia, serif',
-        marginLeft: 35,    
+        marginLeft: 15,    
     },
 
     seunome: {
@@ -88,10 +84,9 @@ const styles = StyleSheet.create({
         marginLeft: 75,
         borderColor: '#5271ff',
         color: 'blue',
+        bottom: 20,
+
+
     },
-      
-
-        
-
 });  
  

@@ -1,5 +1,5 @@
 import React from 'react'
-import {  StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
+import {  StyleSheet, View, Image, TouchableOpacity } from 'react-native'
 
 
 export function Games() {
@@ -7,22 +7,17 @@ export function Games() {
 
         <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
     
-          <TouchableOpacity >   <Image style={styles.ABC}   source={require('./img/ABC.png')} />   </TouchableOpacity>
-          <br>
-        </br>
-          <TouchableOpacity >   <Image style={styles.BolaFut}   source={require('./img/BolaFut.png')} />   </TouchableOpacity>
-          <br>
-        </br>
-          <TouchableOpacity >   <Image style={styles.BolaPraia}   source={require('./img/BolaPraia.png')} />   </TouchableOpacity>
-          <br>
-        </br>
-          <TouchableOpacity >   <Image style={styles.Mapa}   source={require('./img/Mapa.png')} />   </TouchableOpacity>
-          <br>
-        </br>
-          <TouchableOpacity >   <Image style={styles.Sorvete}   source={require('./img/Sorvete.png')} />   </TouchableOpacity>
-          <br>
-        </br>
-          <TouchableOpacity >   <Image style={styles.Elefante}   source={require('./img/Elefante.png')} />   </TouchableOpacity>
+          <TouchableOpacity ><Image style={styles.ABC}   source={require('./img/ABC.png')} /></TouchableOpacity>
+        
+          <TouchableOpacity ><Image style={styles.BolaFut}   source={require('./img/BolaFut.png')} /></TouchableOpacity>
+      
+          <TouchableOpacity ><Image style={styles.BolaPraia}   source={require('./img/BolaPraia.png')} /></TouchableOpacity>
+     
+          <TouchableOpacity ><Image style={styles.Mapa}   source={require('./img/Mapa.png')} /></TouchableOpacity>
+    
+          <TouchableOpacity ><Image style={styles.Sorvete}   source={require('./img/Sorvete.png')} /></TouchableOpacity>
+       
+          <TouchableOpacity ><Image style={styles.Elefante}   source={require('./img/Elefante.png')} /></TouchableOpacity>
         
           <Image style={styles.senai}   source={require('./img/senai.png')} /> 
     
@@ -43,73 +38,72 @@ export function Games() {
     
       ABC:{
     
-        width: 142,
-        height: 142,
-        left: 75,
-        top:-142,
+        width: 138,
+        height: 138,
+        left: 225,
+        top: 80,
       },
     
       BolaFut:{
-        width: 140,
-        height: 140,
-        right: 75,
+        width: 138,
+        height: 138,
         alignItems: 'center',
         justifyContent: 'center',
-        top: -300,
+        left: 30,
+        bottom: 61,
       },
     
       BolaPraia:{
-        
-        
+        left: 29,
         width: 138,
         height: 138,
-        right:75,
         alignItems: 'center',
         justifyContent: 'center',
-        top:-280,
+        top: 10,
+        
     
       },
     
       Mapa:{
-    
-        width: 143,
-        height: 143,
-        left: 75,
+        width: 138,
+        height: 138,
+        left: 230,
         alignItems: 'center',
         justifyContent: 'center',
-        bottom: 440,
+        bottom: 130,
         
       },
     
       Sorvete:{
     
-        width: 143,
-        height: 143,
-        right:75,
+        width: 138,
+        height: 138,
+        left: 30,
         alignItems: 'center',
         justifyContent: 'center',
-        bottom:420,
+        bottom:50,
     
       },
     
       Elefante:{
         
-        width: 140,
-        height: 140,
-        left: 75,
+        width: 138,
+        height: 138,
+        left: 230,
         alignItems: 'center',
         justifyContent: 'center',
-        bottom: 580,
+        bottom: 188,
     
       },
       
     
       senai:{
-    
-    width:370,
-    height:370,
-    bottom:600,
-    resizeMode:'contain',
+
+        left: 78,
+        width:250,
+        height:200,
+        bottom: 200,
+        resizeMode:'contain',
     
       },
 });

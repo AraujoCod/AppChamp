@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, ScrollView, Image, } from 'react-native'
+import { Text, StyleSheet, ScrollView, Image, } from 'react-native'
 
 
 export function Sobre() {
@@ -73,16 +73,16 @@ export function Sobre() {
 const styles = StyleSheet.create({
     
     titulo: {
-        fontFamily: 'Trebuchet MS ',
+     //   fontFamily: 'Trebuchet MS ',
         textAlign: 'center', 
         fontSize: 25, 
-        fontWeight: '600', 
+       // fontWeight: '600', 
         marginTop: 22,
 
     }, 
 
     justificativa:{
-        fontFamily: 'Georgia, serif ',
+     //   fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     }, 
 
     objetivo:{
-        fontFamily: 'Georgia, serif ',
+      //  fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     },
 
     desenvolvimento:{
-        fontFamily: 'Georgia, serif ',
+    //    fontFamily: 'Georgia, serif ',
         textAlign:  'justify',
         marginTop: 40,
         width: 250,
@@ -111,21 +111,21 @@ const styles = StyleSheet.create({
     },
 
     titulo2:{
-        fontFamily: 'Georgia, serif ',
+     //   fontFamily: 'Georgia, serif ',
         textAlign: 'center', 
         fontSize: 25, 
-        fontWeight: '600', 
+       // fontWeight: '600', 
         marginTop: 40,
 
     }, 
 
     formacaoep:{
-        fontFamily: 'Georgia, serif',
+     //   fontFamily: 'Georgia, serif',
         marginTop: 40,
         width: 300,
         marginLeft: 60,
         fontSize: 14,
-        fontWeight: '600',
+      //  fontWeight: '600',
 
     },
 
