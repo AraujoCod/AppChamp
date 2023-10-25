@@ -5,7 +5,7 @@ import {TextInput ,ImageBackground, StyleSheet, Text, View,TouchableOpacity,Imag
 export function Home(){
     return(
         <View style={{ flex: 1, backgroundColor:'#FFFF'}}>
-            
+              
           <ImageBackground source={require ('./img/ChampRbp.png')} resizeMode="contain" style={styles.ChampRbp}></ImageBackground>
 
           <ImageBackground source={require ('./img/ChampRb2.png')} resizeMode="contain" style={styles.ChampFr}> </ImageBackground>
