@@ -40,7 +40,7 @@ export function Games() {
     
         width: 138,
         height: 138,
-        left: 225,
+        left: 30,
         top: 80,
       },
     
@@ -49,7 +49,7 @@ export function Games() {
         height: 138,
         alignItems: 'center',
         justifyContent: 'center',
-        left: 30,
+        left: 225,
         bottom: 61,
       },
     

@@ -1,11 +1,8 @@
-// QuizScreen.tsx
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';
 import Question from './questions';
 
-// QuizScreen.tsx
 
-// ... (seu código anterior)
 
 const QuizScreen: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -16,14 +13,14 @@ const QuizScreen: React.FC = () => {
       questionText: '1. Qual letra esse sinal representa?',
       options: ['A', 'E', 'I', 'O','U'],
       correctAnswer: 'A',
-      imageSource: require('./letras/A.png'), // Import the image
+      imageSource: require('./letras/A.png'), 
       
     },
     {
       questionText: '2. Qual letra esse sinal representa?',
       options: ['A', 'E', 'I', 'O','U'],
       correctAnswer: 'I',
-      imageSource: require('./letras/I.png'), // Import the image
+      imageSource: require('./letras/I.png'), 
     },
     {
       questionText: '3. Qual letra esse sinal representa?',
